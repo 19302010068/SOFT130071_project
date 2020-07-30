@@ -1,0 +1,76 @@
+{
+  "name": "project-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.19",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.4.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "vue": {
+    "pages": {
+      "account": {
+        "entry": "src/account/main.js",
+        "filename": "account/index.html"
+      },
+      "browse": {
+        "entry": "src/browse/main.js",
+        "filename": "browse/index.html"
+      },
+      "details": {
+        "entry": "src/details/main.js",
+        "filename": "details/index.html"
+      },
+      "edit": {
+        "entry": "src/edit/main.js",
+        "filename": "edit/index.html"
+      },
+      "favourites": {
+        "entry": "src/favourites/main.js",
+        "filename": "favourites/index.html"
+      },
+      "friend": {
+        "entry": "src/friend/main.js",
+        "filename": "friend/index.html"
+      },
+      "friends": {
+        "entry": "src/friends/main.js",
+        "filename": "friends/index.html"
+      },
+      "index": "src/index/main.js",
+      "login": {
+        "entry": "src/login/main.js",
+        "filename": "login/index.html"
+      },
+      "photos": {
+        "entry": "src/photos/main.js",
+        "filename": "photos/index.html"
+      },
+      "register": {
+        "entry": "src/register/main.js",
+        "filename": "register/index.html"
+      },
+      "search": {
+        "entry": "src/search/main.js",
+        "filename": "search/index.html"
+      },
+      "upload": {
+        "entry": "src/upload/main.js",
+        "filename": "upload/index.html"
+      }
+    }
+  }
+}
